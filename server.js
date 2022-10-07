@@ -12,7 +12,7 @@ var Alexa = require('alexa-sdk');
 const makePlainText = Alexa.utils.TextUtils.makePlainText;
 const makeImage = Alexa.utils.ImageUtils.makeImage;
 
-app.set('port', (process.env.PORT || 403));
+app.set('port', (process.env.PORT || 80));
 app.use(bodyParser.json());
 //app.use(express.static('public'));
 
